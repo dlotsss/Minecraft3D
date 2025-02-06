@@ -11,3 +11,11 @@ The **Game Map Editor** is a **3D block-based world editor** built using **Panda
 ✔️ **Collision Detection** – Prevents objects from overlapping.
 ✔️ **GUI-Based Editing Tools** (Future Feature).
 
+## Installation
+### Requirements
+- **Python 3.9+**
+- **Panda3D** (3D game engine)
+- Additional dependencies:
+  ```sh
+  pip install panda3d
+  ```

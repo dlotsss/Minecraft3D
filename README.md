@@ -94,6 +94,14 @@ class Game(ShowBase):
         self.controller = Controller()
         self.editor = Editor(self.map_manager)
 ```
-
-## Author
-Developed by **Sofiya Dassayeva**.
+## Controls
+- **WASD / Arrow Keys** – Move around
+- **Mouse Move** – Rotate camera
+- **Left Click** – Add block
+- **Right Click** – Remove block
+- **Tab** – Toggle edit mode
+- **F1** – Generate basic map
+- **F2** – Generate random map
+- **F3** – Save map
+- **F4** – Load map
+- **ESC** – Exit

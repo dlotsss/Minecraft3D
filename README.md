@@ -84,6 +84,16 @@ class Controller():
         move_y = self.key_step * (self.keys['w'] - self.keys['s'])
         base.camera.setPos(base.camera, move_x, move_y, 0)
 ```
+### **5. Main Application (`main.py`)**
+Combines all components to run the game.
+```python
+class Game(ShowBase):
+    def __init__(self):
+        ShowBase.__init__(self)
+        self.map_manager = MapManager()
+        self.controller = Controller()
+        self.editor = Editor(self.map_manager)
+```
 
 ## Author
 Developed by **Sofiya Dassayeva**.

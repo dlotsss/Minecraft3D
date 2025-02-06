@@ -66,6 +66,15 @@ class Block():
         self.block.setColor(color)
         self.block.reparentTo(render)
 ```
+### **3. Editor (`editor.py`)**
+Handles real-time block selection, placement, and deletion.
+```python
+class Editor(DirectObject):
+    def addBlock(self):
+        """ Adds a block at the selected position. """
+        if self.new_position:
+            self.map_manager.addBlock(self.new_position)
+```
 
 
 ## Author

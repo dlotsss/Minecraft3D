@@ -19,3 +19,18 @@ The **Game Map Editor** is a **3D block-based world editor** built using **Panda
   ```sh
   pip install panda3d
   ```
+### Running the Editor
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/game-map-editor.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd game-map-editor
+   ```
+3. Run the main script:
+   ```sh
+   python main.py
+   ```
+
+Developed by **Sofiya Dassayeva**.

@@ -112,3 +112,9 @@ class Game(ShowBase):
 
 ## License
 This project is **open-source** and available for modification and improvement.
+
+## License
+This project is **open-source** and available for modification and improvement.
+
+## Author
+Developed by **Sofiya Dassayeva**.

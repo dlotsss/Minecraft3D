@@ -5,10 +5,15 @@ The **Game Map Editor** is a **3D block-based world editor** built using **Panda
 
 ## Features
 ✔️ **3D Block Placement & Editing** – Users can place, modify, and remove blocks dynamically.
+
 ✔️ **Map Saving & Loading** – Save custom maps to disk and load them back for future editing.
+
 ✔️ **Random Map Generation** – Create procedurally generated maps.
+
 ✔️ **First-Person Camera Controls** – Move around the environment with smooth navigation.
+
 ✔️ **Collision Detection** – Prevents objects from overlapping.
+
 ✔️ **GUI-Based Editing Tools** (Future Feature).
 
 ## Installation
@@ -108,6 +113,7 @@ class Game(ShowBase):
 
 ## Future Enhancements
 🚀 **Enhanced GUI for Map Editing** – Drag-and-drop interface.
+
 📦 **Multiple Block Types & Textures** – Custom blocks with unique properties.
 
 ## License

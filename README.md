@@ -44,6 +44,29 @@ Game-Map-Editor/
 │── assets/            # Stores textures and models
 │── README.md          # Documentation
 ```
+## Code Breakdown
+### **1. Map Management (`mapmanager.py`)**
+Handles block placement, saving/loading maps, and random map generation.
+```python
+class MapManager():
+    def addBlock(self, position, color=None):
+        """ Adds a new block to the world at a given position. """
+        if color is None:
+            color = getRandomColor()
+        block = Block(position, color)
+        self.blocks.append(block)
+```
+### **2. Block System (`block.py`)**
+Defines how blocks are created, selected, and rendered in the 3D environment.
+```python
+class Block():
+    def __init__(self, position, color):
+        self.block = loader.loadModel('block')
+        self.block.setPos(position)
+        self.block.setColor(color)
+        self.block.reparentTo(render)
+```
+
 
 ## Author
 Developed by **Sofiya Dassayeva**.

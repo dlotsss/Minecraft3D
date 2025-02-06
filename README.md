@@ -75,7 +75,15 @@ class Editor(DirectObject):
         if self.new_position:
             self.map_manager.addBlock(self.new_position)
 ```
-
+### **4. Input & Camera Controls (`controller.py`)**
+Allows smooth first-person movement within the world.
+```python
+class Controller():
+    def controlCamera(self, task):
+        move_x = self.key_step * (self.keys['d'] - self.keys['a'])
+        move_y = self.key_step * (self.keys['w'] - self.keys['s'])
+        base.camera.setPos(base.camera, move_x, move_y, 0)
+```
 
 ## Author
 Developed by **Sofiya Dassayeva**.

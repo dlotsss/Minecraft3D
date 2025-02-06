@@ -33,4 +33,17 @@ The **Game Map Editor** is a **3D block-based world editor** built using **Panda
    python main.py
    ```
 
+## Folder Structure
+```
+Game-Map-Editor/
+│── main.py            # Entry point for the application
+│── mapmanager.py      # Manages map generation, saving, and loading
+│── editor.py          # Handles block editing and placement
+│── controller.py      # Controls camera movement and input handling
+│── block.py           # Defines block properties and rendering
+│── assets/            # Stores textures and models
+│── README.md          # Documentation
+```
+
+## Author
 Developed by **Sofiya Dassayeva**.

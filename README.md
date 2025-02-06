@@ -110,3 +110,5 @@ class Game(ShowBase):
 🚀 **Enhanced GUI for Map Editing** – Drag-and-drop interface.
 📦 **Multiple Block Types & Textures** – Custom blocks with unique properties.
 
+## License
+This project is **open-source** and available for modification and improvement.

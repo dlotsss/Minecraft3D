@@ -105,3 +105,8 @@ class Game(ShowBase):
 - **F3** – Save map
 - **F4** – Load map
 - **ESC** – Exit
+
+## Future Enhancements
+🚀 **Enhanced GUI for Map Editing** – Drag-and-drop interface.
+📦 **Multiple Block Types & Textures** – Custom blocks with unique properties.
+

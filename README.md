@@ -111,7 +111,7 @@ class Game(ShowBase):
 - **F4** – Load map
 - **ESC** – Exit
 
-![Image](imgs/minecraft3d.png)
+![Image](imgs/minecraft.png)
 
 ![Image from distance](imgs/scale.png)
 

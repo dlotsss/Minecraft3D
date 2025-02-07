@@ -111,6 +111,11 @@ class Game(ShowBase):
 - **F4** – Load map
 - **ESC** – Exit
 
+![Image](imgs/minecraft3d.png)
+
+![Image from distance](imgs/scale.png)
+
+
 ## Future Enhancements
 🚀 **Enhanced GUI for Map Editing** – Drag-and-drop interface.
 

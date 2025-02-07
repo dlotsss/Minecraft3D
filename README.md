@@ -122,7 +122,9 @@ class Game(ShowBase):
 
 ![Image from distance](imgs/scale.png)
 
-![Game Demo] (imgs/screenrecording.gif)
+[Watch Demo Video]([https://your-link-to-video.mp4](https://drive.google.com/file/d/1WHAFtvr1sLFUy8Cu9Fv2OUs9kG3yemkK/view?usp=sharing))
+
+
 ## Future Enhancements
 🚀 **Enhanced GUI for Map Editing** – Drag-and-drop interface.
 

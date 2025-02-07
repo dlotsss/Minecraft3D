@@ -109,6 +109,13 @@ class Game(ShowBase):
 - **F2** – Generate random map
 - **F3** – Save map
 - **F4** – Load map
+- **1** - White
+- **2** - Red
+- **3** - Green
+- **4** - Yellow
+- **6** - Aqua
+- **7** - Purple
+- **8** - Random
 - **ESC** – Exit
 
 ![Image](imgs/minecraft.png)

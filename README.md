@@ -122,7 +122,7 @@ class Game(ShowBase):
 
 ![Image from distance](imgs/scale.png)
 
-
+![Game Demo] (imgs/screenrecording.gif)
 ## Future Enhancements
 🚀 **Enhanced GUI for Map Editing** – Drag-and-drop interface.
 
